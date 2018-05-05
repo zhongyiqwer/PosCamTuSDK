@@ -15,6 +15,8 @@ import android.provider.MediaStore;
 
 public class Utils {
 
+	public static final String TAG = "我是log：";
+
 	public static final boolean isChineseCharacter(String chineseStr) {
 		char[] charArray = chineseStr.toCharArray();
 		for (int i = 0; i < charArray.length; i++) {

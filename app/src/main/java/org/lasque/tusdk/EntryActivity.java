@@ -16,12 +16,14 @@ import org.lasque.tusdk.impl.activity.TuFragmentActivity;
 import org.lasque.tusdk.psy.api.DefineCameraBase;
 import org.lasque.tusdk.psy.suite.EditMultipleComponent;
 
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Toast;
 
 import com.psy.my.MyActivityManager;
 import com.psy.util.Common;
+import com.psy.util.Utils;
 
 import java.util.Timer;
 import java.util.TimerTask;
@@ -63,7 +65,7 @@ public class EntryActivity extends TuFragmentActivity
 	{
 		super.initActivity();
 		this.setRootView(layoutId, 0);
-
+		Log.e(Utils.TAG,"已进入entry");
 		man = MyActivityManager.getInstance();
 		man.pushOneActivity(EntryActivity.this);
 
@@ -163,7 +165,7 @@ public class EntryActivity extends TuFragmentActivity
 		public void onFilterManagerInited(FilterManager manager)
 		{
 			TuSdk.messageHub().showSuccess(EntryActivity.this, R.string.lsq_inited);
-			showCameraComponent();
+			//showCameraComponent();
 			//Common.isInit = true;
 		}
 	};

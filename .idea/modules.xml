@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PosCam925_未删减.iml" filepath="$PROJECT_DIR$/PosCam925_未删减.iml" />
+      <module fileurl="file://F:\Android_WorkSpace_3.0\PosCamTuSDK\PosCam925_未删减.iml" filepath="F:\Android_WorkSpace_3.0\PosCamTuSDK\PosCam925_未删减.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PosCamTuSDK.iml" filepath="$PROJECT_DIR$/PosCamTuSDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TuSDK-for-Android-2.5.1/TuSDK-for-Android-2.5.1.iml" filepath="$PROJECT_DIR$/TuSDK-for-Android-2.5.1/TuSDK-for-Android-2.5.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>

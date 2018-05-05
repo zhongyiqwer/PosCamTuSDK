@@ -1,11 +1,13 @@
 package com.psy.my;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -27,7 +29,6 @@ import com.psy.util.HttpHelper;
 import com.psy.util.URL;
 import com.youtu.Youtu;
 
-import gaochun.camera.GenericProgressDialog;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.lasque.tusdk.psy.api.DefineCameraBaseFragment;
@@ -45,7 +46,7 @@ import cn.finalteam.galleryfinal.FunctionConfig;
 import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.model.PhotoInfo;
 import cn.xdu.poscam.R;
-import gaochun.camera.PhotoProcessActivity;
+//import gaochun.camera.GenericProgressDialog;
 
 public class UploadActivity extends Activity implements View.OnClickListener {
     private ImageView imgBack, posPic;
@@ -152,7 +153,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
 
 
     private void showProgressDialog(final String msg) {
-        this.runOnUiThread(new Runnable() {
+        /*this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 if (mAlertDialog == null) {
@@ -166,11 +167,11 @@ public class UploadActivity extends Activity implements View.OnClickListener {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(true);
             }
-        });
+        });*/
     }
 
     private void showProgressDialog1(final String msg) {
-        this.runOnUiThread(new Runnable() {
+       /* this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 if (mAlertDialog == null) {
@@ -185,7 +186,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(false);
             }
-        });
+        });*/
     }
 
     private AlertDialog mAlertDialog;
@@ -220,6 +221,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
         return super.onKeyDown(keyCode, event);
     }
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onClick(View view) {
         if (view == imgBack) {
@@ -282,6 +284,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
                             try{
                             int res = 0;
                 //判断图片是否被修改
+                //todo 要把2个请求合并为一个
                 if (!isPicChange)
                     res = HttpHelper.getCode(postData(localpath));
                 else res = HttpHelper.getCode(postData(picpath));

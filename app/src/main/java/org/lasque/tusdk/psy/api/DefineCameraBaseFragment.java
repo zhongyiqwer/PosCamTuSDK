@@ -62,6 +62,7 @@ import com.psy.model.PosLib;
 import com.psy.model.YouTuTag;
 import com.psy.my.LoginActivity;
 import com.psy.my.MyActivityManager;
+import com.psy.my.PhotoProcessActivity;
 import com.psy.my.PosLibActivity;
 import com.psy.my.PosPicAdapter;
 import com.psy.my.ZoomImageView;
@@ -76,8 +77,8 @@ import cn.finalteam.galleryfinal.FunctionConfig;
 import cn.finalteam.galleryfinal.GalleryFinal;
 import cn.finalteam.galleryfinal.model.PhotoInfo;
 import cn.xdu.poscam.R;
-import gaochun.camera.GenericProgressDialog;
-import gaochun.camera.PhotoProcessActivity;
+//import gaochun.camera.GenericProgressDialog;
+//import gaochun.camera.PhotoProcessActivity;
 
 /**
  * 快速相机范例
@@ -720,7 +721,7 @@ public class DefineCameraBaseFragment extends TuFragment {
     }
 
     private void showProgressDialog(final String msg, final Activity activity) {
-        this.runOnUiThread(new Runnable() {
+       /* this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
 
@@ -736,7 +737,7 @@ public class DefineCameraBaseFragment extends TuFragment {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(false);
             }
-        });
+        });*/
 
 
     }

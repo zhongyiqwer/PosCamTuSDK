@@ -101,15 +101,15 @@ public class EditMultipleComponent extends Base
 				.showComponent();
 
 
-
-//		TuSdkGeeV1.albumCommponent(activity, new TuSdkComponentDelegate()
-//		{
-//			@Override
-//			public void onComponentFinished(TuSdkResult result, Error error, TuFragment lastFragment)
-//			{
-//				openEditMultiple(result, error, lastFragment);
-//			}
-//		}).showComponent();
+		/**这个玩意开始不知道为啥要注释，注释了之后就gg*/
+		TuSdkGeeV1.albumCommponent(activity, new TuSdkComponentDelegate()
+		{
+			@Override
+			public void onComponentFinished(TuSdkResult result, Error error, TuFragment lastFragment)
+			{
+				openEditMultiple(result, error, lastFragment);
+			}
+		}).showComponent();
 	}
 
 	/** 开启照片美化组件 */
