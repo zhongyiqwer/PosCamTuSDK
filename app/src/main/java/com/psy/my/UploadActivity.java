@@ -25,6 +25,7 @@ import android.widget.Toast;
 import com.psy.model.YouTuTag;
 import com.psy.util.Common;
 import com.psy.util.DateTimeHelper;
+import com.psy.util.GenericProgressDialog;
 import com.psy.util.HttpHelper;
 import com.psy.util.URL;
 import com.youtu.Youtu;
@@ -153,7 +154,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
 
 
     private void showProgressDialog(final String msg) {
-        /*this.runOnUiThread(new Runnable() {
+        this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 if (mAlertDialog == null) {
@@ -167,11 +168,11 @@ public class UploadActivity extends Activity implements View.OnClickListener {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(true);
             }
-        });*/
+        });
     }
 
     private void showProgressDialog1(final String msg) {
-       /* this.runOnUiThread(new Runnable() {
+        this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
                 if (mAlertDialog == null) {
@@ -186,7 +187,7 @@ public class UploadActivity extends Activity implements View.OnClickListener {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(false);
             }
-        });*/
+        });
     }
 
     private AlertDialog mAlertDialog;

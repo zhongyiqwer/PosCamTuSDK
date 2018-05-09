@@ -119,7 +119,7 @@ public class IApplication extends Application {
         //设置主题
         //ThemeConfig theme = ThemeConfig.CYAN
         ThemeConfig theme = new ThemeConfig.Builder()
-                .setTitleBarBgColor(getApplicationContext().getResources().getColor(R.color.shanZhaRed))
+                .setTitleBarBgColor(getApplicationContext().getResources().getColor(R.color.zhise))
                 .build();
         //配置功能
         FunctionConfig functionConfig = new FunctionConfig.Builder()

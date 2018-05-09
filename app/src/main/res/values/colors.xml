@@ -17,7 +17,7 @@
     <!-- 透明黑色 -->
     <color name="transWhite">#50FFFFFF</color>
     <!-- 透明白色 -->
-    <color name="shanZhaRed">#fd676a</color>
+    <color name="shanZhaRed">#03a9f4</color><!--#fd676a-->
     <!-- 山楂红 #fd676a-->
     <color name="lighterGray">#e3e3e3</color>
     <!-- 超浅灰 -->
@@ -43,18 +43,23 @@
 
 
     <!-- entry on home page -->
-    <color name="demo_entry_camera">#fd676a</color>
-    <color name="demo_entry_camera_focused">#ff5534</color>
+    <color name="demo_entry_camera">#03a9f4</color><!--#fd676a #ff5534-->
+    <color name="demo_entry_camera_focused">#0f8ec5</color>
 
 
-    <color name="demo_entry_editor">#fd676a</color>
-    <color name="demo_entry_editor_focused">#ff5534</color>
+    <color name="demo_entry_editor">#03a9f4</color>
+    <color name="demo_entry_editor_focused">#0f8ec5</color>
 
-    <color name="demo_entry_list">#cc4429</color>
-    <color name="demo_entry_list_focused">#B2cc4429</color>
+    <color name="demo_entry_list">#03a9f4</color><!--#cc4429 #B2cc4429-->
+    <color name="demo_entry_list_focused">#0f8ec5</color>
 
     <!-- flash -->
     <color name="demo_flash_normal">#fff</color>
-    <color name="demo_flash_selected">#ff5534</color>
+    <color name="demo_flash_selected">#03a9f4</color>
 
+    <color name="zhise">#03a9f4</color>
+    <color name="shenzhise">#0f8ec5</color>
+
+    <color name="zhise1">#c45fa0</color>
+    <color name="zhise2">#d443a0</color>
 </resources>

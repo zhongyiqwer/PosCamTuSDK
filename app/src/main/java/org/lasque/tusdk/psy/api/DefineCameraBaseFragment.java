@@ -69,6 +69,7 @@ import com.psy.my.ZoomImageView;
 import com.psy.util.BitmapUtil;
 import com.psy.util.Common;
 import com.psy.util.DataConvert;
+import com.psy.util.GenericProgressDialog;
 import com.psy.util.HttpHelper;
 import com.psy.util.URL;
 import com.youtu.Youtu;
@@ -721,7 +722,7 @@ public class DefineCameraBaseFragment extends TuFragment {
     }
 
     private void showProgressDialog(final String msg, final Activity activity) {
-       /* this.runOnUiThread(new Runnable() {
+        this.runOnUiThread(new Runnable() {
             @Override
             public void run() {
 
@@ -737,7 +738,7 @@ public class DefineCameraBaseFragment extends TuFragment {
                 mAlertDialog.show();
                 mAlertDialog.setCanceledOnTouchOutside(false);
             }
-        });*/
+        });
 
 
     }
