@@ -24,7 +24,8 @@
     <color name="lsq_navigator_bg">#403e43</color>
     <color name="lsq_navigator_title">#ffffff</color>
     <color name="lsq_navigator_button_title">#ffffff</color>
-    <color name="lsq_navigator_button_right_title">#ff6633</color>
+    <!--<color name="lsq_navigator_button_right_title">#ff6633</color>-->
+    <color name="lsq_navigator_button_right_title">#03a9f4</color>
     <color name="lsq_navigator_split">#66000000</color>
 
     <!-- text -->

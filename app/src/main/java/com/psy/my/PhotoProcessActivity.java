@@ -210,10 +210,11 @@ public class PhotoProcessActivity extends Activity implements View.OnClickListen
 			new DefineCameraBase().showSample(this);
 			finish();
 			break;
-			case R.id.btnEdit:
-				finish();
-				new EditMultipleComponent().showSample(this);
-				break;
+
+		case R.id.btnEdit:
+			finish();
+			new EditMultipleComponent().showSample(this);
+			break;
 		}
 	}
 

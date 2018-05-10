@@ -57,8 +57,9 @@
     <color name="demo_flash_normal">#fff</color>
     <color name="demo_flash_selected">#03a9f4</color>
 
-    <color name="zhise">#03a9f4</color>
-    <color name="shenzhise">#0f8ec5</color>
+    <color name="lanse">#03a9f4</color>
+    <color name="zhise">#7f03a9f4</color>
+    <color name="shenzhise">#7f0f8ec5</color>
 
     <color name="zhise1">#c45fa0</color>
     <color name="zhise2">#d443a0</color>

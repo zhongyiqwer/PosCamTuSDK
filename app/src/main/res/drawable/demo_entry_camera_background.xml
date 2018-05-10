@@ -6,10 +6,11 @@
     <!--<item android:state_focused="true" android:drawable="@color/demo_entry_camera_focused"/> -->
     <!---->
     <!--<item android:drawable="@color/demo_entry_camera" />-->
-    <item android:state_pressed="true" android:drawable="@color/shenzhise"/>
+    <item android:state_pressed="true" android:drawable="@drawable/a_btn_entry_itme2"/>
 
-    <item android:state_focused="true" android:drawable="@color/shenzhise"/>
+    <item android:state_focused="true" android:drawable="@drawable/a_btn_entry_itme2"/>
 
-    <item android:drawable="@color/zhise" />
+    <item android:drawable="@drawable/a_btn_entry_item1" />
     
 </selector>
+
