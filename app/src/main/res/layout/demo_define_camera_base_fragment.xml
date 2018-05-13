@@ -103,7 +103,7 @@
             android:layout_marginRight="76dp"
             android:background="@null"
             android:drawablePadding="6dp"
-            android:drawableTop="@drawable/lvjing1"
+            android:drawableTop="@drawable/lvjing"
             android:onClick="onClick"
             android:text="滤镜"
             android:textSize="12dp"

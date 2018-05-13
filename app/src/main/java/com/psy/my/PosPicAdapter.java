@@ -85,7 +85,7 @@ public class PosPicAdapter extends BaseAdapter {
 
 
         String path =
-                "http://" + data.get(position).get("pospic").toString();
+                "http://" +URL.IP_DOWN+ data.get(position).get("pospic").toString();
 
         com.nostra13.universalimageloader.core.ImageLoader.getInstance().displayImage(path, holder.posPic, options);
 

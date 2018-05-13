@@ -3,5 +3,5 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <!--<item android:state_pressed="true" android:drawable="@drawable/ic_take_select" />
     <item android:drawable="@drawable/ic_take_none" />-->
-    <item android:drawable="@drawable/ic_take_none1" />
+    <item android:drawable="@drawable/ic_take_none" />
 </selector>

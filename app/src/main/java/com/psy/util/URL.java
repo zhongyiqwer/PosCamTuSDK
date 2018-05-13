@@ -4,7 +4,9 @@ package com.psy.util;
  * Created by ppssyyy on 2016-08-05.
  */
 public class URL {
-    public static final String IP_AND_PORT = "http://119.29.245.167:80/";
+    //public static final String IP_AND_PORT = "http://119.29.245.167:80/";
+    public static final String IP_AND_PORT = "http://40.125.214.198:80/";
+    public static final String IP_DOWN= "119.29.245.167:8089/";
 
     public static  final String LOGIN_URL =
             IP_AND_PORT+"PoseCamera/UserController/findUidByloginName.do";
